@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    /*padding: 0;*/
+}
+body {
+    font-size: 12px;
+}
+#slice {
+    width: 400px;
+    height: 415px;
+    margin: 50px auto;
+    background: url(../images/slice.gif) no-repeat -454px 53px;
+}
+#slice h1 {
+    width: 400px;
+    height: 41px;
+    background: url(../images/slice.gif) no-repeat -454px -16px;
+    padding-top: 5px;
+}
+/*#slice h1 a {*/
+    /*font-size: 14px;*/
+    /*width: 45px;*/
+    /*height: 23px;*/
+    /*line-height: 23px;*/
+    /*display: block;*/
+    /*margin-left: auto;*/
+    /*background: red url(../images/slice.gif) no-repeat -798px 233px;*/
+    /*text-align: center;*/
+    /*text-decoration: none;*/
+    /*color: #fff;*/
+    /*margin-right: 9px;*/
+/*}*/
+#slice h1 a {
+    background: rgba(0, 0, 0, 0) url("../images/slice.gif") no-repeat scroll -798px -230px;
+    color: #fff;
+    display: block;
+    font-size: 12px;
+    height: 23px;
+    line-height: 23px;
+    margin-left: auto;
+    margin-right: 9px;
+    text-align: center;
+    text-decoration: none;
+    width: 45px;
+}
+#slice div {
+    background: #fff url("../images/slice.gif") no-repeat scroll -32px -11px;
+    height: 340px;
+    padding-top: 10px;
+    width: 400px;
+}
+#slice div h2 {
+    background: #fff url("../images/slice.gif") no-repeat scroll -466px -91px;
+    color: #fff;
+    font-size: 12px;
+    height: 31px;
+    line-height: 31px;
+    margin: 0 auto 10px;
+    text-align: center;
+    width: 371px;
+}
+#slice div dl {
+    background: #fff url("../images/slice.gif") no-repeat scroll -495px -171px;
+    height: 144px;
+    margin: 0 auto;
+    padding-top: 8px;
+    width: 137px;
+}
+#slice div dl dt {
+    background: #fff url("../images/slice.gif") no-repeat scroll -658px -189px;
+    height: 108px;
+    margin: 0 auto;
+    width: 121px;
+}
+#slice div dl dt img {
+    display: block;
+    height: 91px;
+    margin: 0 auto;
+    padding-top: 1px;
+    width: 119px;
+}
+#slice div dl dd {
+    color: #fff;
+    padding: 4px 4px 0;
+    text-align: center;
+}
+#slice div ul {
+    color: #666;
+    line-height: 200%;
+    list-style-type: none;
+    margin-top: 10px;
+    width: 80%;
+}
+#slice div ul li {
+    background: #fff url("../images/slice.gif") no-repeat scroll -456px -140px;
+    border-bottom: 1px dashed #666;
+    padding-left: 15px;
+}
+#slice div ul li em {
+    float: right;
+    font-style: normal;
+}
